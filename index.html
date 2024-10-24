@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VirtualLab</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/logo.png" alt="VirtualLab Logo" />
+        <a href="#" class="navbar-logo">Language <span>VirtualLab</span></a>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#">Beranda</a>
+        <a href="#courses">Kursus</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-exstra">
+        <a href="#" id="login"><i data-feather="log-in"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          Menyediakan Variasi Pembelajaran Seputar <span>Bahasa Inggris</span>
+        </h1>
+        <p>
+          Bahasa inggris merupakan bahasa internasional yang digunakan hampir di
+          seluruh dunia.
+        </p>
+        <a href="#courses" class="cta">Ikut Kelas</a>
+      </main>
+    </section>
+    <!-- hero end -->
+
+    <!-- course section start -->
+    <section id="courses" class="courses">
+      <h2>Our Courses</h2>
+      <div class="course-container">
+        <a href="kursus.html" class="course">
+          <img src="img/course1.png" alt="Vocabulary" />
+          <h3>Vocabulary Building</h3>
+          <p>
+            Belajar mengenai perluasan kosa kata, idiom, dan frasa dalam bahasa
+            Inggris
+          </p>
+          <button class="btn-course">Mulai Kelas</button>
+        </a>
+        <a href="kursus.html" class="course">
+          <img src="img/course2.png" alt="Grammar" />
+          <h3>Grammar</h3>
+          <p>Mempelajari penggunaan grammar yang tepat</p>
+          <button class="btn-course">Mulai Kelas</button>
+        </a>
+        <a href="kursus.html" class="course">
+          <img src="img/course3.png" alt="History" />
+          <h3>History of English Literature</h3>
+          <p>Memplajari macam-macam tenses dalam bahasa inggris</p>
+          <button class="btn-course">Mulai Kelas</button>
+        </a>
+      </div>
+    </section>
+    <!-- course section end -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about-image.jpeg" alt="Tentang Kami" />
+        </div>
+
+        <div class="content">
+          <h3>Kursus Language VirtualLab</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            dolorum consectetur voluptatibus amet, vero laudantium.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+            consequuntur, laboriosam nulla deleniti ipsa maiores porro inventore
+            animi temporibus esse.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about section end-->
+
+    <!-- section kontak start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span></h2>
+      <p>
+        Ada pertanyaan? Hubungi kami dan dengan senang hati kami akan membantu
+        Anda.
+      </p>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- section kontak end -->
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="stei-container">
+        <img src="img/stei-logo.png" alt="" />
+        <h4>18222097</h4>
+      </div>
+    </footer>
+
+    <!-- feather icon -->
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
